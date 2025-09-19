@@ -1,8 +1,6 @@
-body {
+color: black;
 
-color: rgb(0, 0, 0);
-
-background: rgb(71, 71, 71);
+background: gray(0, 255, 149);
 
 margin: 0px;
 
@@ -18,13 +16,13 @@ padding: 20px;
 
 font-size: 32px;
 
-color: rgb(0, 0, 0);
+color: rgb(42, 122, 228);
 
 }
 
 .chamada {
 
-background: rgb(145, 145, 145);
+background: rgb(173, 173, 173);
 
 padding-bottom: 80px;
 
