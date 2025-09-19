@@ -1,62 +1,47 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, 'Algerian', Times, serif;
-      background-color: rgb(0, 255, 149);
-      display: flex;
-      justify-content: center;
-    }
+color: black;
 
-    .container {
-      width: 100%;
-      max-width: 1200px; /* limite da largura do site */
-    }
+background: gray(0, 255, 149);
 
-    header {
-      border-bottom: solid 2px rgb(0, 0, 0);
-      padding: 20px;
-      font-size: 32px;
-      color: rgb(0, 0, 0);
-      text-align: center; /* título centralizado */
-    }
+margin: 0px;
 
-    .chamada {
-      background: rgb(173, 173, 173);
-      padding: 80px 20px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
+font-family: Georgia, 'Times New Roman', Times, serif;
 
-    .chamada-texto {
-      max-width: 800px; /* limita o texto para não estourar a tela */
-      margin: 0 auto;
-    }
+}
 
-    h1 {
-      font-size: 40px;
-    }
+header {
 
-    p {
-      font-size: 20px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <header>Meu Site</header>
-    <section class="chamada">
-      <div class="chamada-texto">
-        <h1>Título centralizado</h1>
-        <p>Texto que agora fica centralizado, bonitinho, sem fugir da tela.</p>
-      </div>
-    </section>
-  </div>
-</body>
-</html>
+border-bottom: solid 2px rgb(0, 0, 0);
+
+padding: 20px;
+
+font-size: 32px;
+
+color: rgb(0, 0, 0);
+
+}
+
+.chamada {
+
+background: rgb(148, 148, 148);
+
+padding-bottom: 80px;
+
+padding-top: 80px;
+
+display: flex;
+
+justify-content: center;
+
+}
+
+.chamada-texto {
+
+margin-right: 5%;
+
+}
+
+h1{font-size: 40px;
+
+}
+
+p{ font-size: 20;}
